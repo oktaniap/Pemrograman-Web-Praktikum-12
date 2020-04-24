@@ -1,0 +1,42 @@
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+    width: 100%;
+    text-align: center;
+}
+
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.judul {
+    background-color: darkorange; 
+    color: white; 
+    text-align: center; 
+    font-size: 25px; 
+    font-weight:bold;
+}
+.line{
+    background-color: steelblue;
+    height: 10px;
+}
+.isi{
+    page-break-before:always;
+}
+.par{
+    font-size: 18px;
+    width: 60%
+}
+.tab {
+    font-size: 20px;
+    width: 70%;
+}
